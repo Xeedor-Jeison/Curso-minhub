@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(8, 255, 8);
+    color: rgb(8, 255, 8);
+    margin: 1vh 1vw 0 0;
+    height: 7vh;
+    border: 2px solid black;
+}
+
+.cuadro-rojo{
+    display: inline-block;
+    background-color: red;
+    color: red;
+    /* position: relative; */
+    margin: 1vh 1vw 0 0;
+    width: 15%;
+    height: 800px;
+    border: 2px solid black;
+    
+
+}
+div{
+    display: inline-block;
+}
+
+.cuadro-principal{
+
+    border: 1px solid black;
+    padding: 5px 5px 0 5px;
+    width: 82.7vw;
+    
+}
+
+.cuadro-fucia {
+    /* position: relative; */
+    background-color: fuchsia;
+    border: 2px solid black;
+    margin: 0.50vh 1vw 1vh 0.80vw;
+    width: 80.5vw;
+    height: 9vh;
+    
+}
+
+.cuadro-naranja-1{
+
+    background-color: orange;
+    border: 2px solid black;
+    margin: 0 0.40vw 0 0.80vw;
+    width: 39.6vw;
+    height: 29.2vh;
+}
+
+
+
+.cuadro-azul-1{
+    background-color: blue;
+    border: 2px solid black;
+    margin: 0.80vw 0.55vw 0.40vw  0.80vw;
+    width: 12.4vw;
+    height: 9.5vw;
+}
+
+.cuadro-azul-2{
+    background-color: blue;
+    border: 2px solid black;
+    margin: 0.75vh 0.55vw;
+    width: 25vw;
+    height: 9.5vw;
+}
+
+ 
+
+footer{
+    background: rgb(8, 255, 8);
+    height: 3vh;
+    border: 2px solid black;
+    margin: 1vh 1vw 0 0;
+}

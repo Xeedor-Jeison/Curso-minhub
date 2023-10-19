@@ -1,0 +1,244 @@
+@media only screen and (max-width:325px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        background-color: #CCC;
+    }
+    div{
+        display: flex;
+    }
+    
+    .container2{
+        align-items: center;
+        justify-content: center;
+        order: -1;
+        width: 100vw;
+        height: 80vh;
+        background-color: #fff;
+        
+    }
+
+    form{
+        font-size: 16px;
+        width: 90vw;
+        height: 70vh;
+        border: 1px solid black;
+        border-radius: 20px;
+    }
+    h2{
+        text-align: center;
+        margin-bottom: 25px;
+        margin-top: 10px;
+    }
+    label{
+        margin-left: 10vw;
+        font-weight: bold;
+    
+    }
+
+    input{
+        width: 70vw;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        margin-left: 10vw;
+        height: 50px;
+        font-size: 15px;
+    }
+
+    textarea{
+        width: 70vw;
+        height: 10vh;
+        margin-left: 10vw;
+    }
+    .enviar{
+        background-color: #0aa717;
+        color: #FFF;
+        height: 7vh;
+        width: 60vw;
+        border-radius: 15px;
+        font-size: 20px;
+        margin: 2vh 15vw;
+    }
+    
+    .enviar:hover{
+        background-color: #084688;
+    }
+
+    .container1{
+       justify-content: center;
+        width: 100vw;
+    }
+
+    iframe{
+        width: 95%;
+        
+    }
+    
+}
+
+@media only screen and (min-width:326px) and (max-width:768px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        background-color: #CCC;
+    }
+    div{
+        display: flex;
+    }
+    
+    .container2{
+        align-items: center;
+        justify-content: center;
+        order: -1;
+        width: 100vw;
+        height: 80vh;
+        background-color: #fff;
+        
+    }
+
+    form{
+        font-size: 16px;
+        width: 90vw;
+        height: 70vh;
+        border: 1px solid black;
+        border-radius: 20px;
+    }
+    h2{
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 25px;
+        margin-top: 10px;
+    }
+    label{
+        margin-left: 10vw;
+        font-weight: bold;
+        font-size: 23px;
+    
+    }
+
+    input{
+        width: 70vw;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        margin-left: 10vw;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    textarea{
+        width: 70vw;
+        height: 10vh;
+        margin-left: 10vw;
+        font-size: 20px;
+    }
+    .enviar{
+        background-color: #e7d216;
+        color: #000;
+        height: 7vh;
+        width: 60vw;
+        border-radius: 15px;
+        font-size: 20px;
+        margin: 1vh 15vw;
+    }
+    
+    .enviar:hover{
+        background-color: #f03f09;
+    }
+
+    .container1{
+       justify-content: center;
+        width: 100vw;
+    }
+
+    iframe{
+        width: 100%;
+        
+    }
+}
+
+@media only screen and (min-width:769px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    main{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #CCC;
+    }
+    div{
+        display: flex;
+    }
+    .container1{
+        width: 50vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    iframe{
+        width: 800px;
+        height: 600px;
+    }
+    
+    .container2{
+        justify-content: center;
+        align-items: center;
+        background-color: #FFF;
+        border-radius: 20px;
+        width: 45vw;
+        height: 90vh;
+    }
+    form{
+        font-size: 25px;
+    }
+    h2{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    label{
+        font-weight: bold;
+    
+    }
+    
+    
+    input{
+        width: 39vw;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        height: 50px;
+        font-size: 20px;
+    }
+    
+    #coment{
+        font-size: 19px;
+        width: 39.1vw;
+        height: 15vh;
+    }
+    
+    .enviar{
+        background-color: #007BFF;
+        color: #FFF;
+        height: 50px;
+        width: 90px;
+        border-radius: 5px;
+        font-size: 25px;
+    }
+    
+    .enviar:hover{
+        background-color: #084688;
+    } 
+}
+

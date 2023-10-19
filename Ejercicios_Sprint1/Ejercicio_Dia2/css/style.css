@@ -1,0 +1,99 @@
+* {
+    font-family: 'Prompt', sans-serif;
+}
+
+body {
+    background-image: url(../imagenes/prueba.gif);
+}
+
+.title{
+    display: block;
+    text-align: center;
+    font-size: 90px;
+    color: #3C1ACF;
+    margin: 0px;
+    padding: 0px 10px;
+}
+
+.nav {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #CE8A24;
+}
+
+.nav-ancord {
+    text-decoration: none;
+}
+
+a[href="#"] {
+    background-color: #39c5b2a4;
+}
+
+a:hover {
+    background-color: #ff0;
+}
+
+.subtitle {
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    color: #121ECA;
+}
+
+.container-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container-flex > div {
+    border: 3px dashed #3C1ACF;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    min-height: 1000px;
+    min-width: 400px;
+}
+
+.menu:hover{
+    background-color: #9ff;
+}
+
+.img-menu {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.menu-p-final {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+ul {
+    background: #3399ff;
+    padding: 20px;
+    list-style-type: none;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  ul li {
+    background: #cce5ff;
+    color: darkblue;
+    margin: 5px;
+  }
+
+  .subtitle-div {
+    font-size: 25px;
+    color:  #af093b;
+  }
+
+
+  .footer-p {
+
+    font-weight: bold;
+    text-align: center;
+  }

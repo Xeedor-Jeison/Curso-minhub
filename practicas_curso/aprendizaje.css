@@ -1,0 +1,69 @@
+/* body{
+    box-sizing: border-box;
+}
+article{
+    display: flex;
+}
+.barra-left{
+    width: 300px;
+
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    order: initial;
+    
+}
+
+.prueba{
+    position: sticky;
+    top: 30px;
+}
+
+.barra-central{
+   
+    width: 1200px;
+    height: 2500px;
+    font-size: 50px;
+}
+
+.barra-rigth{
+    width: 300px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.prueba2{
+    position: sticky;
+    top: 30px;
+}
+img{
+    position:sticky;
+    width: 300px;
+}
+
+.videojuegos{
+    justify-content: center;
+    width: 700px;
+    height: 700px;
+} */
+
+@media only screen and (max-width:350px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .prueba{
+        width: 100vw;
+
+    }
+
+    .div-prueba{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+}

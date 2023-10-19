@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(../imagenes/fondo-tabla.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.div-pizza1{
+    width: 200px;
+    height: 250px;
+}
+
+.div-pizza2 {
+    width: 180px;
+    height: 250px;
+}
+
+div{
+    display: inline-block;
+    transition: all 1s;
+}
+
+.caja{
+    position: relative;
+}
+.caja1{
+    top: 250px;
+    left: 730px;
+    transform: rotate(-66deg);
+}
+
+ .caja1:hover{
+    transform: translate(-400px) scale(2);
+ } 
+
+.caja2{
+    top: 178px;
+    left: 590px;
+    transform: rotate(-20deg);
+}
+
+ .caja2:hover{
+    transform: translate(-450px, 50px) scale(2);
+}
+
+.caja3{
+    top: 175px;
+    left: 485px;
+    transform: rotate(26deg);
+}
+
+ .caja3:hover{
+    transform: translate(400px) scale(2);
+} 
+
+.caja4{
+    top: 245px;
+    left: 350px;
+    transform: rotate(70deg);
+}
+
+.caja4:hover{
+    transform: translate(400px) scale(2);
+} 
+
+.caja5{
+    top: 346px;
+    right: 85px;
+    transform: rotate(65deg);
+}
+
+ .caja5:hover{
+    transform: translate(-390px,-100px) rotate(180deg) scale(2);
+} 
+
+.caja6{
+    top: 415px;
+    right: 195px;
+    transform: rotate(21deg);
+
+}
+
+ .caja6:hover{
+    transform: translate(-400px,-170px) rotate(180deg) scale(2);
+} 
+
+.caja7{
+    top: 415px;
+    right: 275px;
+    transform: rotate(-23deg);
+}
+
+.caja7:hover{
+    transform: translate(400px,-150px) rotate(180deg) scale(2);
+} 
+
+.caja8{
+    top: 349px;
+    right: 385px;
+    transform: rotate(-67deg);
+}
+
+.caja8:hover{
+    transform: translate(400px,-150px) rotate(180deg) scale(2);
+} 

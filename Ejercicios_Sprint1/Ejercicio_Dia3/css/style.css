@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Young Serif', serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../imagenes/pizarra.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+
+
+h1 {
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    padding: 20px;
+}
+
+div {
+    display: inline-block;
+    margin: 10px 110px 20px 160px;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
