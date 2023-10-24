@@ -4,9 +4,12 @@
     box-sizing: border-box;
 }
 
-/* body{
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(113,8,102,1) 59%, rgba(8,146,173,1) 100%)
-} */
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(113,8,102,1) 59%, rgba(8,146,173,1) 100%);
+}
+header{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 10%, rgba(113,8,102,1) 50%, rgba(8,146,173,1) 90%);
+}
 
 .section1{
     display: flex;
@@ -32,23 +35,128 @@ a{
 }
 
 .subtitle{
-    
+    margin-top: 1vw;
+    color: white;
     text-align: center;
 }
 
 .section2{
     display: flex;
     justify-content: space-around;
-    width: 100vw;
+    align-items: center;
+    border-bottom: 2px solid white;
 }
 
 form{
-    background-color:aqua;
-    padding: 10px;
-    width: 250px;
-    height: 250px;
+    background-color: #000;
+    border-radius: 20px;
+    width: 13vw;
+    height: 34vh;
+    margin-left: 9vw;
+    font-size: 18px;
 
 }
 
+input{
+    margin: 0 1.5vw;
+    width: 9vw;
+    height: 3vh;
+    margin-bottom: 0.5vw;
+
+}
+label{
+    color: white;
+    margin: 0 1.5vw;
+}
+.form-h2{
+    color: white;
+    font-size: 20px;
+    margin: 0vw 1.5vw;
+    margin-top: 1vw;
+}
+
+.form-p{
+    color: white;
+    margin: 0 1.5vw;
+}
+
+.submit{
+    background-color: Purple;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    width: 9vw;
+    margin: 0.5vw 1.5vw;
+    height: 1.5vw;
+}
+
+.container-section2{
+    width: 17vw;
+    margin-right: 7vw;
+
+}
+
+.section2-p{
+    font-size: 18px;
+    color: white;
+}
+
+.section3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid white;
+}
+
+
+.section3-ul{
+    color: white;
+    font-size: 18px;
+}
+
+.section4{
+    display: flex;
+    align-items: center;
+}
+
+.section4-img{
+    align-self: flex-end;
+}
+
+.section4-table{
+    color: white;
+}
+table{
+    margin-left: 18vw;
+    font-size: 18px;
+    border-collapse:collapse;
+}
+
+.row1{
+    background-color: purple;
+}
+
+th{
+    text-align: left;
+    padding: 10px;
+    
+}
+
+td{
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+footer{
+    display: flex;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(113,8,102,1) 50%, rgba(8,146,173,1) 90%);
+    justify-content: space-between;
+    color: white;
+    height: 5vh;
+}
+
+footer p{
+    margin-right: 1vw;
+}
 
 
